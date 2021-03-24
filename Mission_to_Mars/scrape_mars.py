@@ -104,7 +104,7 @@ def Mars_Fact():
     table_html = mars_facts.to_html(index=False, classes = "table table-striped")
     Mars_Fact_data= {'table_html': table_html}
 
-return Mars_Fact_data
+    return Mars_Fact_data
 
 
 
